@@ -14,11 +14,11 @@ Things to keep in mind:
 - Need to add `_layouts` to the Eleventy build (cf. `.eleventy.js`)
 - Template content is accessed through `templateContent` key (cf. `assets/js/search.js 21: text.content`)
 - Eleventy interprets all templates as liquid in addition to anything else -- if you need it to do otherwise have to be explicit about it (cf. `documentation.md` `templateEngineOverride`)
-- Typographic kinks
+- Typographic issues solved through the miracle of plugins (cf. `.eleventy.js`)
   - [x] Smartquotes (cf. `.eleventy.js` MarkdownIt parameters)
-  - [x] Parsing markdown footnotes (cf. `markdown-it-footnote` plugin)
-  - [x] Using Kramdown style inline attributes (`{.mycoolclass}`) -- not quite Kramdown, but Pandoc style
-  - [x] Markdown table of contents
+  - [x] Parsing markdown footnotes (`markdown-it-footnote` plugin)
+  - [x] Using ~~Kramdown style inline attributes (`{:.mycoolclass}`)~~ Pandoc style inline attributes (`{.mycoolclass}`) (`markdown-it-attr`)
+  - [x] Markdown table of contents (`markdown-it-table-of-contents`)
 - Have to implement any custom filters by hand, for example, the Jekyll/Liquid filter `jsonify` (cf. `.eleventy.js` filter addition)
 - Have to add Sass to Eleventy build yourself if you're into that kind of thing
 
