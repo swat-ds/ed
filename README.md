@@ -1,6 +1,26 @@
-# Ed: A Jekyll Theme for Minimal Editions
+# Eleventyed: Further experiments with the JAM stack
 
-[![Build Status](https://travis-ci.org/minicomp/ed.svg?branch=master)](https://travis-ci.org/minicomp/ed) [![Gem Version](https://badge.fury.io/rb/ed..svg)](https://badge.fury.io/rb/ed.)
+A fork of Ed as a means of exploring Eleventy static site generator for Digital Scholarship.
+
+## Converting a Jekyll theme into an Eleventy project
+
+Is it worth it? After some experimentation, answer is yes! While Eleventy is more flexible, the default structure of Jekyll plays nicely with Eleventy.
+
+Things to keep in mind:
+
+- Eleventy does not have a `pages` variable (cf., `_includes/sidebar.html`) -- need to create a `pages` collection the Eleventy way
+- Removing references to `page` parent object at the template level (except `page.url`), i.e., `page.title` --> `title` in most Liquid templating
+- Collection items attributes are accessed through the `data` key (i.e., `item.data.title`)
+- Need to add `_layouts` to the Eleventy build (cf. `.eleventy.js`)
+- Template content is accessed through `templateContent` key (cf. `assets/js/search.js 21: text.content`)
+- Eleventy interprets all templates as liquid in addition to anything else -- if you need it to do otherwise have to be explicit about it (cf. `documentation.md` `templateEngineOverride`)
+- Typographic kinks
+  - [x] Smartquotes (cf. `.eleventy.js` MarkdownIt parameters)
+  - [x] Parsing markdown footnotes (cf. `markdown-it-footnote` plugin)
+  - [x] Using Kramdown style inline attributes (`{.mycoolclass}`) -- not quite Kramdown, but Pandoc style
+  - [x] Markdown table of contents
+- Have to implement any custom filters by hand, for example, the Jekyll/Liquid filter `jsonify` (cf. `.eleventy.js` filter addition)
+- Have to add Sass to Eleventy build yourself if you're into that kind of thing
 
 ![Sample Ed screenshot](https://github.com/minicomp/ed/blob/master/assets/screenshot-home.png)
 

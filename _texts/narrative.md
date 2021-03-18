@@ -33,7 +33,7 @@ This version of *Narrative of the Life of Frederick Douglass* was adapted from *
 
 ---
 
-<a id="title-page" />
+<a id="title-page"></a>
 
 <p class="centered large">NARRATIVE<br>OF THE<br>LIFE<br>OF</p>
 <br>
@@ -170,7 +170,7 @@ The slaves selected to go to the Great House Farm, for the monthly allowance for
 
 > - I am going away to the Great House Farm!
 > - O, yea! O, yea!
-{:.poetry}
+{.poetry}
 
 This they would sing, as a chorus, to words which to many would seem unmeaning jargon, but which, nevertheless, were full of meaning to themselves. I have sometimes thought that the mere hearing of those songs would do more to impress some minds with the horrible character of slavery, than the reading of whole volumes of philosophy on the subject could do.
 
@@ -307,7 +307,7 @@ Very soon after my return to Baltimore, my mistress, Lucretia, died, leaving her
 > - To the rice swamp dank and lone,
 > - From Virginia hills and waters—
 > - Woe is me, my stolen daughters!
-{:.poetry}
+{.poetry}
 
 
 The hearth is desolate. The children, the unconscious children, who once sang and danced in her presence, are gone. She gropes her way, in the darkness of age, for a drink of water. Instead of the voices of her children, she hears by day the moans of the dove, and by night the screams of the hideous owl. All is gloom. The grave is at the door. And now, when weighed down by the pains and aches of old age, when the head inclines to the feet, when the beginning and ending of human existence meet, and helpless infancy and painful old age combine together—at this time, this most needful time, the time for the exercise of that tenderness and affection which children only can exercise towards a declining parent—my poor old grandmother, the devoted mother of twelve children, is left all alone, in yonder little hut, before a few dim embers. She stands—she sits—she staggers—she falls—she groans—she dies—and there are none of her children or grandchildren present, to wipe from her wrinkled brow the cold sweat of death, or to place beneath the sod her fallen remains. Will not a righteous God visit for these things?
@@ -392,7 +392,7 @@ At the close of the year 1834, Mr. Freeland again hired me of my master, for the
 
 > - rather bear those ills we had,  
 > - Than fly to others, that we knew not of.  
-{:.poetry}
+{.poetry}
 
 In coming to a fixed determination to run away, we did more than Patrick Henry, when he resolved upon liberty or death. With us it was a doubtful liberty at most, and almost certain death if we failed. For my part, I should prefer death to hopeless bondage.
 
@@ -500,22 +500,22 @@ I find, since reading over the foregoing Narrative, that I have, in several inst
 > - Who minister at thine altar, God of right!
 > - Men who their hands, with prayer and blessing, lay
 > - On Israel's ark of light.
-{:.poetry}
+{.poetry}
 > - What! preach, and kidnap men?
 > - Give thanks, and rob thy own afflicted poor?
 > - Talk of thy glorious liberty, and then
 > - Bolt hard the captive's door?
-{:.poetry}
+{.poetry}
 > - What! servants of thy own
 > - Merciful Son, who came to seek and save
 > - The homeless and the outcast, fettering down
 > - The tasked and plundered slave!
-{:.poetry}
+{.poetry}
 > - Pilate and Herod friends!
 > - Chief priests and rulers, as of old, combine!
 > - Just God and holy! is that church which lends
 > - Strength to the spoiler thine?"
-{:.poetry}
+{.poetry}
 
 The Christianity of America is a Christianity, of whose votaries it may be as truly said, as it was of the ancient scribes and Pharisees, "They bind heavy burdens, and grievous to be borne, and lay them on men's shoulders, but they themselves will not move them with one of their fingers. All their works they do for to be seen of men.—They love the uppermost rooms at feasts, and the chief seats in the synagogues, . . . . . . and to be called of men, Rabbi, Rabbi.—But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men; for ye neither go in yourselves, neither suffer ye them that are entering to go in. Ye devour widows' houses, and for a pretence make long prayers; therefore ye shall receive the greater damnation. Ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves.—Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint, and anise, and cumin, and have omitted the weightier matters of the law, judgment, mercy, and faith; these ought ye to have done, and not to leave the other undone. Ye blind guides! which strain at a gnat, and swallow a camel. Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter; but within, they are full of extortion and excess.—Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity."
 
@@ -606,7 +606,7 @@ I conclude these remarks by copying the following portrait of the religion of th
 > - Who dress as sleek as glossy snakes,
 > - And cram their mouths with sweetened cakes;
 > - And this goes down for union.
-{:.poetry}
+{.poetry}
 
 
 Sincerely and earnestly hoping that this little book may do something toward throwing light on the American slave system, and hastening the glad day of deliverance to the millions of my brethren in bonds—faithfully relying upon the power of truth, love, and justice, for success in my humble efforts—and solemnly pledging my self anew to the sacred cause,—I subscribe myself,
